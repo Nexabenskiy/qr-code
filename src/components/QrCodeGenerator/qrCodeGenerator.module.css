@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 20px;
+}
+.qrTextInput {
+  height: 25px;
+  padding-inline: 8px;
+  font-size: 16px;
+  outline: none;
+}
+.qrTextInput::placeholder {
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+button {
+  height: 29px;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1.3px;
+}

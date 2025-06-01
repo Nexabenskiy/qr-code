@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+}
+.scanner {
+  max-width: 256px;
+}
+.text {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+}
