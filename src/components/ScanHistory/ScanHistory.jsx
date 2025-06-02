@@ -8,7 +8,7 @@ export const ScanHistory = () => {
   console.log(data)
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 20, marginTop: 232 }}>
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 20, marginTop: '230px' }}>
       {data.map((item, index) => {
         return (
           <div
