@@ -6,7 +6,7 @@ export const GenerateHistory = () => {
   const data = JSON.parse(localStorage.getItem(GENERATE_DATA) || '[]')
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 20, marginTop: 230 }}>
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 20, marginTop: 232 }}>
       {data.map((item, index) => {
         return (
           <div
