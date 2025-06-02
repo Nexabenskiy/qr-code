@@ -31,7 +31,7 @@ export const QrCodeScanner = () => {
 
   return (
     <div className={st.container}>
-      <Scanner className={st.scanner} styles={scannerStyles} allowMultiple={true} onScan={onScanHandler} components={scannerSettings} />
+      <Scanner className={st.scanner} styles={scannerStyles} allowMultiple="true" onScan={onScanHandler} components={scannerSettings} />
       <div className={st.text}>{scanValue}</div>
     </div>
   )
