@@ -13,9 +13,9 @@ export const ScanHistory = () => {
         return (
           <div
             key={`${item}_${index}`}
-            style={{ display: 'flex', flexDirection: 'column', alignAtems: 'center', justifyContent: 'center', gap: 15, width: '100%', borderBottom: 1, borderBottomStyle: 'solid' }}
+            style={{ display: 'flex', flexDirection: 'column', alignAtems: 'center', justifyContent: 'center', gap: 15, width: '100%', borderBottom: 1, borderBottomStyle: 'solid', paddingBottom: 20 }}
           >
-            <p style={{ fontSize: 24 }}>{item}</p>
+            <p style={{ fontSize: 24, marginBlock: 0 }}>{item}</p>
             <QRCode size={80} style={{ height: 'auto', maxWidth: 80, width: '100%' }} value={item} viewBox={`0 0 256 256`} />
           </div>
         )

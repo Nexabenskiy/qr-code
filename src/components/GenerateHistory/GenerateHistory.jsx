@@ -11,9 +11,9 @@ export const GenerateHistory = () => {
         return (
           <div
             key={`${index}_${item}`}
-            style={{ display: 'flex', flexDirection: 'column', alignAtems: 'center', justifyContent: 'center', gap: 15, width: '100%', borderBottom: 1, borderBottomStyle: 'solid' }}
+            style={{ display: 'flex', flexDirection: 'column', alignAtems: 'center', justifyContent: 'center', gap: 15, width: '100%', borderBottom: 1, borderBottomStyle: 'solid', paddingBottom: 20 }}
           >
-            <span style={{ fontSize: 24 }}>{item}</span>
+            <span style={{ fontSize: 24, marginBlock: 0 }}>{item}</span>
 
             <QRCode size={80} style={{ height: 'auto', maxWidth: 80, width: '100%' }} value={item} viewBox={`0 0 256 256`} />
           </div>
